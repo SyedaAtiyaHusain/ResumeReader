@@ -47,7 +47,7 @@ def reader(x):
  
         count=-1
         head,list=[],[]
-        for i in resume:
+        for i in resume: 
             count+=1
             if "\t" in i:
                 r=re.findall(r'[\w\s]*?[\w]+\t',i)
